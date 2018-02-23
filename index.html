@@ -7,26 +7,32 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="Style.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <link rel="stylesheet" href="Style.css">
     <title>Document</title>
 </head>
 <body>
+    <h1>Expense Calculator</h1>
         <div class="container">
     <div class="row justify-content-md-center">
-    <input type="text" class = "input" id="one">
-    <input type="text" class="input" id="two">
-    <button class="input" id="add">submit</button>
-    <button id="calculate">Calculate</button>
+    <input type="text" class = "input form-control" id="one">
+    <input type="text" class="input form-control" id="two">
+    <button class = "btn btn-primary" id="add">Submit</button>
+    <button class="btn btn-primary" id="calculate">Calculate</button>
 </div>
     <div class="row justify-content-md-center">
-                <div class="col col-sm-2">
+        <div class="col col-sm-2"></div>
+                <div class="col col-sm-4">
     <div class = "data" id="item"></div>
                 </div>
                 <div class="col col-sm-2">
     <div class ="data" id = "liability"></div>
+    <div class="col col-sm-4"></div>
         </div>
         </div>
 </div>
+<div id="result"></div>
 </body>
 <script src="script.js"></script>
 </html>

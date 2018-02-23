@@ -23,7 +23,7 @@ document.getElementById("item").appendChild(items);
 
 
 var val = document.createElement("h4");
-var dollar = document.createTextNode(cost);
+var dollar = document.createTextNode("$" + cost);
 
 val.appendChild(dollar);
 
@@ -38,7 +38,13 @@ function add(){
        how +=  amount[i];
     }
       
-    console.log(how);
+   
+var it = document.createElement("h5");
+var money = document.createTextNode("Total is " + "$" + how);
+
+it.appendChild(money);
+
+document.getElementById("result").appendChild(it);
     
 }
 

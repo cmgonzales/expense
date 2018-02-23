@@ -1,6 +1,7 @@
 
 .container{
     text-align: center !important;
+    padding-top: 50px;
 }
 
 body{
@@ -8,4 +9,36 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+h4{
+ color: white;
+ font-family: 'Gloria Hallelujah', cursive;
+ font-size: 30px;
+}
+h1{
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(103, 9, 190);
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+#one{
+    width: 45%;
+}
+
+#two{
+    width: 10%;
+}
+
+.input{
+    display: inline;
+}
+h5{
+    text-align: center;
+    color: red ;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
 }
