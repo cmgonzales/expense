@@ -1,4 +1,11 @@
 
-.datas{
-    display: inline;
+.container{
+    text-align: center !important;
+}
+
+body{
+    background-image: url("money.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }

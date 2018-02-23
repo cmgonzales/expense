@@ -1,5 +1,4 @@
-
-document.getElementById("add").addEventListener("click", addexp);
+ document.getElementById("add").addEventListener("click", addexp);
 document.getElementById("calculate").addEventListener("click", add);
 
 var amount = [];
@@ -28,7 +27,7 @@ var dollar = document.createTextNode(cost);
 
 val.appendChild(dollar);
 
-document.getElementById("item").appendChild(val);
+document.getElementById("liability").appendChild(val);
 
 }
 
